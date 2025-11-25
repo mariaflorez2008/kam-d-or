@@ -16,5 +16,11 @@ boton.addEventListener("click",function(evento){
         telefono:cajaTelefono.value,
 
     }
+
+    Swal.fire({
+  title: "Bienvenido!",
+  text: "Has sido registrado!",
+  icon: "success"
+});
      
 })
